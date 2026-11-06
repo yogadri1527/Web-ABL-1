@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthy Food Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f1f8e9;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: darkgreen;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 2px 5px gray;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Healthy Food and Nutrition</h1>
+    <p>Eat Healthy, Stay Healthy</p>
+</header>
+
+<nav>
+    <a href="#recipes">Recipes</a>
+    <a href="#meal">Meal Plans</a>
+    <a href="#ingredients">Ingredients</a>
+    <a href="#calories">Calories</a>
+    <a href="#tips">Healthy Tips</a>
+    <a href="#categories">Food Categories</a>
+</nav>
+
+<section id="recipes">
+    <h2>Nutritious Recipes</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Vegetable Salad</h3>
+            <p>Fresh vegetables with lemon juice.</p>
+            <p>Healthy and rich in vitamins.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fruit Salad</h3>
+            <p>Apple, banana and papaya.</p>
+            <p>Rich in vitamins and fibre.</p>
+        </div>
+
+        <div class="card">
+            <h3>Oats Breakfast</h3>
+            <p>Oats with milk and nuts.</p>
+            <p>Good source of fibre.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="meal">
+    <h2>Daily Meal Plans</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Breakfast</h3>
+            <p>Idli, fruits and milk.</p>
+        </div>
+
+        <div class="card">
+            <h3>Lunch</h3>
+            <p>Rice, dal and vegetables.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dinner</h3>
+            <p>Chapati and vegetable curry.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="ingredients">
+    <h2>Ingredient Lists</h2>
+    <ul>
+        <li>Fresh vegetables</li>
+        <li>Fruits</li>
+        <li>Milk</li>
+        <li>Rice</li>
+        <li>Oats</li>
+        <li>Nuts</li>
+    </ul>
+</section>
+
+<section id="calories">
+    <h2>Calorie Information</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Apple</h3>
+            <p>Approximately 95 calories.</p>
+        </div>
+
+        <div class="card">
+            <h3>Banana</h3>
+            <p>Approximately 105 calories.</p>
+        </div>
+
+        <div class="card">
+            <h3>Boiled Egg</h3>
+            <p>Approximately 78 calories.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Healthy Eating Tips</h2>
+    <ul>
+        <li>Drink enough water.</li>
+        <li>Eat fresh fruits and vegetables.</li>
+        <li>Avoid junk food.</li>
+        <li>Eat food at regular times.</li>
+        <li>Exercise daily.</li>
+    </ul>
+</section>
+
+<section id="categories">
+    <h2>Food Categories</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Fruits</h3>
+            <p>Apple, Banana, Orange.</p>
+        </div>
+
+        <div class="card">
+            <h3>Vegetables</h3>
+            <p>Carrot, Tomato, Spinach.</p>
+        </div>
+
+        <div class="card">
+            <h3>Protein Foods</h3>
+            <p>Eggs, Milk, Beans.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Healthy Food Website</p>
+    <p>Eat Healthy, Live Healthy!</p>
+</footer>
+
+</body>
+</html>

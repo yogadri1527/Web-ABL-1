@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: yellow;
+            transition: 0.3s;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            animation: fade 1.5s;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Personal Portfolio</h1>
+    <p>Welcome to My Website</p>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="profile">
+    <h2>My Profile</h2>
+    <p>Hello! My name is Yogasri.</p>
+    <p>I am a first-year B.Tech student in
+    Computer Science and Engineering (AI & ML).</p>
+</section>
+
+<section id="education">
+    <h2>Educational Qualifications</h2>
+    <ul>
+        <li>B.Tech - CSE (AI & ML)</li>
+        <li>Intermediate</li>
+        <li>SSC</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Basic Computer Skills</li>
+    </ul>
+</section>
+
+<section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Listening to Music</li>
+        <li>Dancing</li>
+        <li>Watching TV</li>
+        <li>Reading News</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <p>1. Personal Portfolio Website</p>
+    <p>2. Simple Python Programs</p>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <p>Participated in college activities and workshops.</p>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>Click below to view my resume.</p>
+    <button onclick="alert('Add your resume PDF link here!')">
+        View Resume
+    </button>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>Phone: Your Mobile Number</p>
+    <p>Location: Guntur, Andhra Pradesh</p>
+</section>
+
+<footer>
+    <p>© 2026 My Personal Website</p>
+</footer>
+
+</body>
+</html>

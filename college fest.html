@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Festival Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px gray;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .banner {
+            background-color: #e1bee7;
+            text-align: center;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        input, select, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .banner {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>COLLEGE FEST 2026</h1>
+    <p>Welcome to Our Annual College Festival</p>
+    <p>Celebrate Talent, Creativity and Innovation</p>
+</header>
+
+<nav>
+    <a href="#technical">Technical Events</a>
+    <a href="#cultural">Cultural Events</a>
+    <a href="#workshops">Workshops</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#coordinators">Coordinators</a>
+    <a href="#rules">Rules</a>
+    <a href="#registration">Registration</a>
+</nav>
+
+<div class="banner">
+    <h2>Welcome to College Fest 2026</h2>
+    <p>Join us and showcase your talents!</p>
+    <p>Date: 21 August 2026</p>
+    <p>Venue: College Campus</p>
+</div>
+
+<section id="technical">
+    <h2>Technical Events</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Code Challenge</h3>
+            <p>Show your programming skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Designing</h3>
+            <p>Create attractive websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Quiz Competition</h3>
+            <p>Test your technical knowledge.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="cultural">
+    <h2>Cultural Competitions</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Dance Competition</h3>
+            <p>Show your dancing talent.</p>
+        </div>
+
+        <div class="card">
+            <h3>Singing Competition</h3>
+            <p>Show your singing skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fashion Show</h3>
+            <p>Express your creativity.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="workshops">
+    <h2>Workshops</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <p>Learn about AI technologies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Python Programming</h3>
+            <p>Learn basic Python concepts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Robotics</h3>
+            <p>Explore modern robotics.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="schedule">
+    <h2>Event Schedule</h2>
+
+    <div class="card">
+        <p>10:00 AM - Inauguration</p>
+        <p>11:00 AM - Technical Events</p>
+        <p>01:00 PM - Lunch Break</p>
+        <p>02:00 PM - Cultural Events</p>
+        <p>04:00 PM - Prize Distribution</p>
+    </div>
+</section>
+
+<section id="coordinators">
+    <h2>Event Coordinators</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Technical Coordinator</h3>
+            <p>Name: Rahul</p>
+            <p>Contact: 9876543210</p>
+        </div>
+
+        <div class="card">
+            <h3>Cultural Coordinator</h3>
+            <p>Name: Priya</p>
+            <p>Contact: 9876543211</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="rules">
+    <h2>Festival Rules</h2>
+
+    <ul>
+        <li>Participants must register before the event.</li>
+        <li>Students must carry their college ID cards.</li>
+        <li>Maintain discipline in the campus.</li>
+        <li>Follow the instructions of coordinators.</li>
+        <li>Report to the venue on time.</li>
+    </ul>
+</section>
+
+<section id="registration">
+    <h2>Registration Form</h2>
+
+    <form>
+        <label>Student Name:</label><br>
+        <input type="text" placeholder="Enter your name">
+        <br>
+
+        <label>College Name:</label><br>
+        <input type="text" placeholder="Enter college name">
+        <br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter email">
+        <br>
+
+        <label>Select Event:</label><br>
+        <select>
+            <option>Code Challenge</option>
+            <option>Dance Competition</option>
+            <option>Singing Competition</option>
+            <option>AI Workshop</option>
+            <option>Web Designing</option>
+        </select>
+        <br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel" placeholder="Enter mobile number">
+        <br>
+
+        <label>Message:</label><br>
+        <textarea placeholder="Enter your message"></textarea>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 College Fest</p>
+    <p>Enjoy the Festival!</p>
+</footer>
+
+</body>
+</html>
